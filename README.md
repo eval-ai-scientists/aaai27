@@ -1,7 +1,13 @@
 # Evaluating AI Scientists: Benchmarks, Simulation, and Trust
 
+Live at **https://eval-ai-scientists.github.io/aaai27/**
+
 Website for the AAAI-27 workshop, built as plain static HTML with no build step and no
 dependencies. Every page works when opened straight from disk and when served by GitHub Pages.
+
+The bare organization address, `https://eval-ai-scientists.github.io/`, is a separate
+one-file repository that redirects here. A later edition can be added as a sibling
+repository, for instance `aaai28`, by pointing that redirect at the new one.
 
 ## Publishing
 
