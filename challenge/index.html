@@ -1,0 +1,221 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>AI Scientist Evaluation Challenge | Evaluating AI Scientists, AAAI-27 Workshop</title>
+<meta name="description" content="A two-track challenge run with XtalPi on a real-world drug discovery dataset. Track A generates research reports, Track B builds tools that evaluate AI-generated papers.">
+<meta property="og:type" content="website">
+<meta property="og:title" content="AI Scientist Evaluation Challenge | AAAI-27 Workshop">
+<meta property="og:description" content="Two tracks, a real-world drug discovery dataset from XtalPi, and a publicly released corpus of expert-annotated AI-generated papers.">
+<link rel="icon" href="../assets/img/favicon.svg" type="image/svg+xml">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="../assets/css/style.css">
+</head>
+<body>
+
+<header class="header-nav">
+  <div class="container-xxl">
+    <nav class="navbar">
+      <a class="navbar-brand" href="../" aria-label="Evaluating AI Scientists, AAAI-27 workshop, home">
+        <span class="brand-mark" aria-hidden="true">
+          <svg viewBox="0 0 48 48" xmlns="http://www.w3.org/2000/svg">
+            <defs><linearGradient id="bm1" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#5a86d6"/><stop offset="1" stop-color="#33569c"/></linearGradient></defs>
+            <rect width="48" height="48" rx="12" fill="url(#bm1)"/>
+            <g fill="none" stroke="#fff" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round">
+              <path d="M19 12v9L11.6 35.4A3 3 0 0 0 14.2 40h19.6a3 3 0 0 0 2.6-4.6L29 21v-9"/>
+              <path d="M16.5 12h15"/><path d="M19.4 32.6l3.4 3.4 6.6-7"/>
+            </g>
+          </svg>
+        </span>
+        <span class="brand-text">
+          <span class="brand-title">Evaluating AI Scientists</span>
+          <span class="brand-sub">AAAI-27 Workshop</span>
+        </span>
+      </a>
+
+      <button class="navbar-toggler" type="button" aria-controls="navHeader" aria-expanded="false" aria-label="Toggle navigation">
+        <svg class="icon-open" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"><path d="M3 6h18M3 12h18M3 18h18"/></svg>
+        <svg class="icon-close" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"><path d="M18 6 6 18M6 6l12 12"/></svg>
+      </button>
+
+      <div class="navbar-collapse" id="navHeader">
+        <ul class="navbar-nav">
+          <li class="nav-item"><a class="nav-link" href="../">Home</a></li>
+          <li class="nav-item"><a class="nav-link" href="../calls/">Call for Papers</a></li>
+          <li class="nav-item active"><a class="nav-link" href="./">Challenge</a></li>
+          <li class="nav-item"><a class="nav-link" href="../schedule/">Program</a></li>
+          <li class="nav-item"><a class="nav-link" href="../speakers/">Keynotes</a></li>
+          <li class="nav-item"><a class="nav-link" href="../papers/">Accepted Papers</a></li>
+          <li class="nav-item"><a class="nav-link" href="../organizers/">Organizers</a></li>
+        </ul>
+        <div class="navbar-right">
+          <a href="../calls/#submission" class="btn btn-primary btn-sm">Submit</a>
+        </div>
+      </div>
+    </nav>
+  </div>
+</header>
+
+<main>
+
+  <section class="page-header">
+    <div class="container-xxl">
+      <div class="block">
+        <h1 class="title underline-none">The AI Scientist Evaluation Challenge</h1>
+        <p class="lead">A challenge organized in collaboration with XtalPi, an AI-driven drug discovery company, built on a real-world dataset from molecular property prediction or drug-target interaction.</p>
+        <nav aria-label="Breadcrumb">
+          <ol class="breadcrumb">
+            <li><a href="../">Home</a></li>
+            <li aria-current="page">Challenge</li>
+          </ol>
+        </nav>
+      </div>
+      <div class="has-circle" aria-hidden="true">
+        <img class="wave-1" src="../assets/img/waves/wave-1.svg" alt="">
+        <img class="wave-2" src="../assets/img/waves/wave-2.svg" alt="">
+        <span class="circle-1 ratio-32"></span>
+        <span class="circle-2 ratio-73 fill"></span>
+        <span class="circle-3 ratio-20 fill"></span>
+        <span class="circle-4 ratio-47"></span>
+        <span class="circle-5 ratio-62"></span>
+        <span class="circle-6 ratio-20 fill"></span>
+        <span class="circle-7 ratio-73"></span>
+        <span class="circle-8 ratio-37 accent"></span>
+        <span class="circle-9 ratio-20"></span>
+        <span class="circle-10 ratio-65"></span>
+        <span class="circle-11 ratio-20 accent"></span>
+      </div>
+    </div>
+  </section>
+
+  <section class="section">
+    <div class="container">
+      <div class="narrow content">
+
+        <h2 id="about">What the challenge asks</h2>
+        <p>Judging finished manuscripts is only part of the problem. The challenge puts both halves of the question in front of the community at once, asking one set of participants to generate science with autonomous systems and another set to build the instruments that assess it. Both halves run on the same real-world data, so the two tracks can be read against each other.</p>
+        <p>Results are presented at the workshop in a dedicated session with spotlight talks, and the corpus that comes out of the challenge is released publicly.</p>
+
+        <h2 id="tracks">Two tracks</h2>
+        <div class="grid grid-2 mb-4">
+          <div class="track">
+            <span class="badge">Track A</span>
+            <h3>Generation</h3>
+            <p>Participants use an AI Scientist system to produce a research report on the provided dataset.</p>
+            <p class="mb-0">Submissions are judged by automated metrics and expert reviewers.</p>
+          </div>
+          <div class="track is-b">
+            <span class="badge">Track B</span>
+            <h3>Evaluation</h3>
+            <p>Participants build metrics, frameworks, or tools that assess a provided set of AI-generated papers.</p>
+            <p class="mb-0">Submissions are judged on reliability, scalability, and correlation with expert human judgment.</p>
+          </div>
+        </div>
+
+        <h2 id="dataset">The dataset</h2>
+        <p>XtalPi provides a real-world dataset drawn from molecular property prediction or drug-target interaction. The exact task and the release date will be announced here.</p>
+
+        <h2 id="resource">A lasting community resource</h2>
+        <p>The challenge will yield a publicly released, expert-annotated dataset of AI-generated scientific papers. Work in this area has been held back by the absence of shared, human-labelled material to calibrate against, and this corpus is meant to outlive the workshop itself.</p>
+
+        <h2 id="dates">Key dates</h2>
+        <ul class="dates">
+          <li><span class="label">Challenge dataset release</span><span class="value">To be announced</span></li>
+          <li><span class="label">Registration opens</span><span class="value">To be announced</span></li>
+          <li><span class="label">Challenge submissions close</span><span class="value">To be announced</span></li>
+          <li class="is-key"><span class="label">Results and spotlight talks</span><span class="value">At the workshop, February 22 or 23, 2027</span></li>
+        </ul>
+
+        <h2 id="register">Registration</h2>
+        <div class="callout accent">
+          <p>Registration is not open at the moment. Details and the registration link will be posted on this page. To be notified, write to the <a href="../contact/">workshop organizers</a>.</p>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <section class="section-tight">
+    <div class="container">
+      <div class="cta">
+        <div class="inner">
+          <h2>Papers are welcome too</h2>
+          <p>The challenge runs alongside the regular paper track. Full papers and position papers on evaluation, verification, benchmarking, or simulation of autonomous scientific discovery are due November 20, 2026.</p>
+          <div class="btn-group">
+            <a href="../calls/" class="btn btn-primary">Call for papers</a>
+            <a href="../schedule/" class="btn btn-outline">Workshop program</a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+</main>
+
+<footer class="footer">
+  <div class="container">
+    <div class="footer-grid">
+      <div class="footer-brand">
+        <a class="navbar-brand" href="../">
+          <span class="brand-mark" aria-hidden="true">
+            <svg viewBox="0 0 48 48" xmlns="http://www.w3.org/2000/svg">
+              <defs><linearGradient id="bm2" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#5a86d6"/><stop offset="1" stop-color="#33569c"/></linearGradient></defs>
+              <rect width="48" height="48" rx="12" fill="url(#bm2)"/>
+              <g fill="none" stroke="#fff" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round">
+                <path d="M19 12v9L11.6 35.4A3 3 0 0 0 14.2 40h19.6a3 3 0 0 0 2.6-4.6L29 21v-9"/>
+                <path d="M16.5 12h15"/><path d="M19.4 32.6l3.4 3.4 6.6-7"/>
+              </g>
+            </svg>
+          </span>
+          <span class="brand-text">
+            <span class="brand-title">Evaluating AI Scientists</span>
+            <span class="brand-sub">AAAI-27 Workshop</span>
+          </span>
+        </a>
+        <p>Benchmarks, Simulation, and Trust. A workshop at the 41st AAAI Conference on Artificial Intelligence, Montréal, February 2027.</p>
+      </div>
+
+      <div class="footer-widget">
+        <h3>Workshop</h3>
+        <ul class="footer-links">
+          <li><a href="../calls/">Call for Papers</a></li>
+          <li><a href="./">Evaluation Challenge</a></li>
+          <li><a href="../schedule/">Program</a></li>
+          <li><a href="../speakers/">Keynotes</a></li>
+          <li><a href="../papers/">Accepted Papers</a></li>
+        </ul>
+      </div>
+
+      <div class="footer-widget">
+        <h3>Contact</h3>
+        <ul class="footer-links">
+          <li><a href="../organizers/">Organizers</a></li>
+          <li><a href="../contact/">Get in touch</a></li>
+          <li><a href="https://aaai.org/conference/aaai/aaai-27/">AAAI-27</a></li>
+        </ul>
+      </div>
+
+      <div class="footer-widget">
+        <h3>Location</h3>
+        <ul class="footer-links">
+          <li>Palais des Congrès de Montréal</li>
+          <li>Montréal, Québec, Canada</li>
+          <li>February 22 or 23, 2027</li>
+        </ul>
+      </div>
+    </div>
+  </div>
+</footer>
+
+<div class="footer-bottom">
+  <div class="container">
+    <p>Copyright © Evaluating AI Scientists, AAAI-27 Workshop</p>
+  </div>
+</div>
+
+<script src="../assets/js/main.js"></script>
+</body>
+</html>
