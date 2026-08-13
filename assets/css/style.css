@@ -375,8 +375,49 @@ hr { border: 0; border-top: 1px solid var(--line); margin: 2.5rem 0; }
   width: calc(100% - 40px);
   border-radius: var(--radius-lg);
   background-color: var(--panel);
+  overflow: hidden;
   z-index: 1;
 }
+
+/* Montréal from Mount Royal, the workshop's host city, as the headline backdrop.
+   The plate keeps the photo's native 1269x414 proportion so it renders at about
+   1.1x its real pixels, where it stays sharp. Filling the whole panel instead
+   would demand a 1.6x upscale and visibly soften it. */
+.banner .has-circle::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  aspect-ratio: 1269 / 414;
+  background-image: url("../img/montreal-1269.jpg");
+  background-image: image-set(
+    url("../img/montreal-1269.webp") type("image/webp"),
+    url("../img/montreal-1269.jpg") type("image/jpeg")
+  );
+  background-repeat: no-repeat;
+  background-position: center top;
+  background-size: cover;
+  /* Dissolve the treeline into the panel rather than cutting it off. */
+  -webkit-mask-image: linear-gradient(to bottom, #000 0%, #000 74%, transparent 100%);
+  mask-image: linear-gradient(to bottom, #000 0%, #000 74%, transparent 100%);
+  opacity: .28;
+}
+
+/* The one inline link in the banner lands on mid-blue sky, where the brand
+   blue drops to 1.9:1. Darken it here and underline it, so it no longer
+   depends on hue alone to read as a link. Scoped to the banner. */
+.banner .subtitle a {
+  color: #1f3a66;
+  text-decoration: underline;
+  text-decoration-thickness: 1px;
+  text-underline-offset: 3px;
+}
+.banner .subtitle a:hover { color: #142748; }
+
+/* The photo is the panel's decoration now. Floating dots on top of a skyline
+   read as clutter, so the banner drops them. Inner page headers keep theirs. */
+.banner .has-circle span { display: none; }
 /* Circles stay in the outer margins so they never sit behind the centred text. */
 .banner .has-circle .circle-1 { top: 58px; left: 7%; }
 .banner .has-circle .circle-2 { top: 30%; left: 1.5%; }
@@ -948,6 +989,18 @@ table.table tr.is-break td { color: var(--muted); }
    Responsive
    -------------------------------------------------------------------------- */
 
+@media (max-width: 1100px) {
+  /* Narrower panel, so a narrower plate carries the same detail for a third
+     of the bytes. */
+  .banner .has-circle::before {
+    background-image: url("../img/montreal-1269.jpg");
+    background-image: image-set(
+      url("../img/montreal-1016.webp") type("image/webp"),
+      url("../img/montreal-1269.jpg") type("image/jpeg")
+    );
+  }
+}
+
 @media (max-width: 1199px) {
   .banner .has-circle .circle-3,
   .banner .has-circle .circle-8,
@@ -1022,6 +1075,21 @@ table.table tr.is-break td { color: var(--muted); }
      crowd the text. The panel alone carries the decoration. */
   .banner .has-circle span,
   .page-header .has-circle span { display: none; }
+
+  /* At this width the native proportion would leave a 120px sliver that reads
+     as nothing. Crop to a fixed band instead and hold the skyline in frame. */
+  .banner .has-circle::before {
+    aspect-ratio: auto;
+    height: 210px;
+    background-position: center 55%;
+    background-image: url("../img/montreal-1269.jpg");
+    background-image: image-set(
+      url("../img/montreal-762.webp") type("image/webp"),
+      url("../img/montreal-1269.jpg") type("image/jpeg")
+    );
+    -webkit-mask-image: linear-gradient(to bottom, #000 0%, #000 66%, transparent 100%);
+    mask-image: linear-gradient(to bottom, #000 0%, #000 66%, transparent 100%);
+  }
 
   /* Keep the hero diagram legible by letting it scroll inside its card. */
   .hero-card { padding: 18px; overflow-x: auto; }
