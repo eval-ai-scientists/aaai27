@@ -1,3 +1,14 @@
+/* Self-hosted so the fallback is identical everywhere and does not depend on
+   a third-party font host, which is unreachable for some of our audience.
+   Variable, weight axis 200-1000, latin subset, 30 KB. */
+@font-face {
+  font-family: "Nunito Sans";
+  src: url("./fonts/nunito-sans-var.woff2") format("woff2");
+  font-weight: 200 1000;
+  font-style: normal;
+  font-display: swap;
+}
+
 :root {
   --ink: #172033;
   --ink-soft: #586174;
@@ -20,7 +31,7 @@ body {
   margin: 0;
   background: var(--paper);
   color: var(--ink);
-  font-family: "Avenir Next", "Helvetica Neue", Arial, sans-serif;
+  font-family: "Avenir Next", "Nunito Sans", "Helvetica Neue", Arial, sans-serif;
   font-size: 16px;
   line-height: 1.65;
   -webkit-font-smoothing: antialiased;
