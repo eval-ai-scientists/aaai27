@@ -650,3 +650,91 @@ footer {
 @media (prefers-reduced-motion: reduce) {
   html { scroll-behavior: auto; }
 }
+
+/* Organizer role lines, senior advisors, and the supporting team. Added
+   2026-08-25 to match the revised proposal. Weight 700 throughout, so the
+   Avenir Next and Nunito Sans renderings stay identical. */
+
+.organizer-roles {
+  margin-top: 10px;
+  margin-bottom: 0;
+  font-size: 13px;
+}
+
+.people-block {
+  margin-top: 62px;
+  padding-top: 42px;
+  border-top: 1px solid var(--line);
+}
+
+.people-block h3 {
+  margin-bottom: 8px;
+  font-size: 26px;
+  font-weight: 700;
+}
+
+.people-block > p {
+  max-width: 720px;
+  margin-bottom: 34px;
+  color: var(--ink-soft);
+  font-size: 14px;
+}
+
+.people-grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  column-gap: 48px;
+  row-gap: 36px;
+}
+
+.people-grid-wide {
+  grid-template-columns: repeat(2, 1fr);
+  column-gap: 72px;
+}
+
+.person {
+  padding-top: 18px;
+  border-top: 1px solid var(--line);
+}
+
+.person h4 {
+  margin: 0 0 6px;
+  font-size: 19px;
+  font-weight: 700;
+  line-height: 1.15;
+  letter-spacing: -0.025em;
+}
+
+.person p {
+  margin-bottom: 6px;
+  color: var(--ink-soft);
+  font-size: 13px;
+}
+
+.person p:last-child { margin-bottom: 0; }
+
+.person .person-affil {
+  color: var(--ink);
+  font-weight: 600;
+}
+
+@media (max-width: 900px) {
+  .people-grid,
+  .people-grid-wide {
+    grid-template-columns: repeat(2, 1fr);
+    column-gap: 48px;
+  }
+}
+
+@media (max-width: 640px) {
+  .people-block {
+    margin-top: 48px;
+    padding-top: 34px;
+  }
+
+  .people-grid,
+  .people-grid-wide {
+    grid-template-columns: 1fr;
+    row-gap: 28px;
+  }
+}
