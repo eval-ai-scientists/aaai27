@@ -33,7 +33,7 @@ than face-recognition is what establishes identity.
 | `steve-drew.jpg` | Supplied by the web chair |
 | `yunkai-bao.jpg` | Supplied by the web chair |
 | `tianyu-shi.jpg` | `tianyushi.org`, URL supplied by the web chair |
-| `fan-zhou.jpg` | LinkedIn profile photograph, URL supplied by the web chair |
+| `fan-zhou.jpg` | Supplied by the web chair at full resolution |
 | `haolun-wu.jpg` | His own site, `haolun-wu.github.io` |
 | `hongtu-zhu.jpg` | UNC STOR faculty page |
 | `sheila-mcilraith.jpg` | Vector Institute team page |
