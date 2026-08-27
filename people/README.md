@@ -29,17 +29,18 @@ than face-recognition is what establishes identity.
 | `bang-liu.jpg` | Mila directory, `mila.quebec/en/directory/bang-liu` |
 | `samira-ebrahimi-kahou.jpg` | Mila directory, `mila.quebec/en/directory/samira-ebrahimi-kahou` |
 | `perouz-taslakian.jpg` | Mila directory, `mila.quebec/en/directory/perouz-taslakian` |
+| `aaron-tian.jpg` | LinkedIn profile photograph, supplied by the web chair |
 
 All cropped square with the frame biased upward, 400x400, JPEG quality 82.
 
 ## Still on initials
 
 Tianyu Shi, Fan Zhou, Jieping Ye, Sheila McIlraith, Mengdi Wang, Hongtu Zhu,
-Steve Drew, Haolun Wu, Aaron Tian, Peiyu Zhang, Yunkai Bao.
+Steve Drew, Haolun Wu, Peiyu Zhang, Yunkai Bao.
 
 Reasons vary. Drew's UCalgary profile image sits behind an expiring token.
 Wu's Mila record has no portrait file at the path his profile advertises. The
-industry people have no public headshot to find. Fan Zhou, Aaron Tian and
+remaining industry people have no public headshot to find. Fan Zhou and
 Peiyu Zhang are common enough names that search returns several different
 people, and publishing the wrong face is worse than an initial.
 
