@@ -33,7 +33,7 @@ than face-recognition is what establishes identity.
 | `steve-drew.jpg` | Supplied by the web chair |
 | `yunkai-bao.jpg` | Supplied by the web chair |
 | `tianyu-shi.jpg` | `tianyushi.org`, URL supplied by the web chair |
-| `fan-zhou.jpg` | Google Scholar profile, URL supplied by the web chair |
+| `fan-zhou.jpg` | LinkedIn profile photograph, URL supplied by the web chair |
 | `haolun-wu.jpg` | His own site, `haolun-wu.github.io` |
 | `hongtu-zhu.jpg` | UNC STOR faculty page |
 | `sheila-mcilraith.jpg` | Vector Institute team page |
@@ -48,9 +48,10 @@ Princeton returns 403 to automated fetches, so Mengdi Wang's faculty photo is
 out of reach and her lab site carries none. Jieping Ye has no official page
 serving a portrait. Peiyu Zhang has no public headshot to find.
 
-Fan Zhou's file is the weakest of the set. Google Scholar serves a 170x256
-thumbnail, so the usable crop was 105x105 before upscaling. It holds at the
-62px the page renders, but a real headshot from him would be better.
+Fan Zhou's file is the weakest of the set. Both sources carry the same
+full-body photograph at low resolution, LinkedIn's signed URL serving only the
+200x200 variant, so the usable crop is 110x110 before upscaling. It holds at
+the 62px the page renders, but a real headshot from him would be better.
 
 Anything supplied directly settles this, since the sender establishes identity.
 
