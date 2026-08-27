@@ -747,3 +747,53 @@ footer {
   color: var(--ink-soft);
   font-size: 14px;
 }
+
+/* Person avatars. Each card carries initials by default. Dropping a file into
+   people/ and uncommenting that person's rule below swaps in the photograph,
+   so cards can gain photos one at a time without ever showing a broken image.
+   Added 2026-08-27. */
+
+.avatar {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 54px;
+  height: 54px;
+  margin-bottom: 14px;
+  border-radius: 50%;
+  background: #e7ecf5 center top / cover no-repeat;
+  color: var(--accent);
+  font-size: 16px;
+  font-weight: 700;
+  letter-spacing: .04em;
+  user-select: none;
+}
+
+.organizer .avatar {
+  width: 62px;
+  height: 62px;
+  font-size: 18px;
+}
+
+/* A photograph covers the circle and hides the initials underneath it. If the
+   file is missing the rule simply does nothing and the initials stay. */
+.avatar[style*="people/"],
+.avatar.has-photo { color: transparent; }
+
+/* Uncomment one line per person as their photograph arrives in people/.
+.avatar-tianyu-shi            { background-image: url("./people/tianyu-shi.jpg"); color: transparent; }
+.avatar-bang-liu              { background-image: url("./people/bang-liu.jpg"); color: transparent; }
+.avatar-fan-zhou              { background-image: url("./people/fan-zhou.jpg"); color: transparent; }
+.avatar-perouz-taslakian      { background-image: url("./people/perouz-taslakian.jpg"); color: transparent; }
+.avatar-samira-ebrahimi-kahou { background-image: url("./people/samira-ebrahimi-kahou.jpg"); color: transparent; }
+.avatar-jieping-ye            { background-image: url("./people/jieping-ye.jpg"); color: transparent; }
+.avatar-irina-rish            { background-image: url("./people/irina-rish.jpg"); color: transparent; }
+.avatar-sheila-mcilraith      { background-image: url("./people/sheila-mcilraith.jpg"); color: transparent; }
+.avatar-yoshua-bengio         { background-image: url("./people/yoshua-bengio.jpg"); color: transparent; }
+.avatar-mengdi-wang           { background-image: url("./people/mengdi-wang.jpg"); color: transparent; }
+.avatar-hongtu-zhu            { background-image: url("./people/hongtu-zhu.jpg"); color: transparent; }
+.avatar-aaron-tian            { background-image: url("./people/aaron-tian.jpg"); color: transparent; }
+.avatar-peiyu-zhang           { background-image: url("./people/peiyu-zhang.jpg"); color: transparent; }
+.avatar-haolun-wu             { background-image: url("./people/haolun-wu.jpg"); color: transparent; }
+.avatar-yunkai-bao            { background-image: url("./people/yunkai-bao.jpg"); color: transparent; }
+*/
