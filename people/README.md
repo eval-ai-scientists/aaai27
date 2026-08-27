@@ -32,18 +32,25 @@ than face-recognition is what establishes identity.
 | `aaron-tian.jpg` | LinkedIn profile photograph, supplied by the web chair |
 | `steve-drew.jpg` | Supplied by the web chair |
 | `yunkai-bao.jpg` | Supplied by the web chair |
+| `tianyu-shi.jpg` | `tianyushi.org`, URL supplied by the web chair |
+| `fan-zhou.jpg` | Google Scholar profile, URL supplied by the web chair |
+| `haolun-wu.jpg` | His own site, `haolun-wu.github.io` |
+| `hongtu-zhu.jpg` | UNC STOR faculty page |
+| `sheila-mcilraith.jpg` | Vector Institute team page |
 
 All cropped square with the frame biased upward, 400x400, JPEG quality 82.
 
 ## Still on initials
 
-Tianyu Shi, Fan Zhou, Jieping Ye, Sheila McIlraith, Mengdi Wang, Hongtu Zhu,
-Haolun Wu, Peiyu Zhang.
+Jieping Ye, Mengdi Wang, Peiyu Zhang.
 
-Wu's Mila record has no portrait file at the path his profile advertises, and
-Peiyu Zhang has no public headshot to find. Fan Zhou is a common enough name
-that search returns several different people, and publishing the wrong face is
-worse than an initial. The rest simply have no single authoritative image page.
+Princeton returns 403 to automated fetches, so Mengdi Wang's faculty photo is
+out of reach and her lab site carries none. Jieping Ye has no official page
+serving a portrait. Peiyu Zhang has no public headshot to find.
+
+Fan Zhou's file is the weakest of the set. Google Scholar serves a 170x256
+thumbnail, so the usable crop was 105x105 before upscaling. It holds at the
+62px the page renders, but a real headshot from him would be better.
 
 Anything supplied directly settles this, since the sender establishes identity.
 
