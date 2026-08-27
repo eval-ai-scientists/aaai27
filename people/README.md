@@ -35,7 +35,7 @@ than face-recognition is what establishes identity.
 | `tianyu-shi.jpg` | `tianyushi.org`, URL supplied by the web chair |
 | `fan-zhou.jpg` | Supplied by the web chair at full resolution |
 | `haolun-wu.jpg` | His own site, `haolun-wu.github.io` |
-| `hongtu-zhu.jpg` | UNC STOR faculty page |
+| `hongtu-zhu.jpg` | UNC Gillings School of Global Public Health profile |
 | `sheila-mcilraith.jpg` | Vector Institute team page |
 | `jieping-ye.jpg` | Supplied by the web chair, background already removed |
 | `mengdi-wang.jpg` | Princeton Engineering faculty page |
