@@ -17,6 +17,32 @@ Square, at least 400x400, centred on the face with a little headroom. The site
 renders them at 62px for organizers and 54px for everyone else, so anything
 above 400px is wasted bytes. JPEG, quality 80, under 60 KB each.
 
+## Sources on file
+
+Each was taken from that person's own official profile, so provenance rather
+than face-recognition is what establishes identity.
+
+| File | Source |
+|---|---|
+| `yoshua-bengio.jpg` | Wikimedia Commons, `File:Yoshua_Bengio_-_2017.jpg`, CC BY-SA |
+| `irina-rish.jpg` | Mila directory, `mila.quebec/en/directory/irina-rish` |
+| `bang-liu.jpg` | Mila directory, `mila.quebec/en/directory/bang-liu` |
+| `samira-ebrahimi-kahou.jpg` | Mila directory, `mila.quebec/en/directory/samira-ebrahimi-kahou` |
+| `perouz-taslakian.jpg` | Mila directory, `mila.quebec/en/directory/perouz-taslakian` |
+
+All cropped square with the frame biased upward, 400x400, JPEG quality 82.
+
+## Still on initials
+
+Tianyu Shi, Fan Zhou, Jieping Ye, Sheila McIlraith, Mengdi Wang, Hongtu Zhu,
+Steve Drew, Haolun Wu, Aaron Tian, Peiyu Zhang, Yunkai Bao.
+
+Reasons vary. Drew's UCalgary profile image sits behind an expiring token.
+Wu's Mila record has no portrait file at the path his profile advertises. The
+industry people have no public headshot to find. Fan Zhou, Aaron Tian and
+Peiyu Zhang are common enough names that search returns several different
+people, and publishing the wrong face is worse than an initial.
+
 ## Permission
 
 Do not copy headshots from faculty pages, lab sites, or conference programmes.
