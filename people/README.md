@@ -39,28 +39,14 @@ than face-recognition is what establishes identity.
 | `sheila-mcilraith.jpg` | Vector Institute team page |
 | `jieping-ye.jpg` | Supplied by the web chair, background already removed |
 | `mengdi-wang.jpg` | Princeton Engineering faculty page |
+| `peiyu-zhang.jpg` | Supplied by the web chair |
 
 All cropped square with the frame biased upward, 400x400, JPEG quality 82.
 
-## Still on initials
+## Complete
 
-Peiyu Zhang, and only because LinkedIn answers automated requests with a 999.
-
-A LinkedIn profile page sometimes leaks its photo URL in the HTML even behind
-the login wall, which is how Fan Zhou's was obtained, but the response is rate
-limited and often returns 999 instead. A direct media.licdn.com URL, copied
-from the profile photo in a browser, always works.
-
-Two files arrived with their backgrounds already removed, Jieping Ye's and
-Mengdi Wang's, hers inside a cyan Princeton circle. Both are composited onto
-the avatar tint before cropping, so the cut edge blends into the circle.
-
-Fan Zhou's file is the weakest of the set. Both sources carry the same
-full-body photograph at low resolution, LinkedIn's signed URL serving only the
-200x200 variant, so the usable crop is 110x110 before upscaling. It holds at
-the 62px the page renders, but a real headshot from him would be better.
-
-Anything supplied directly settles this, since the sender establishes identity.
+All sixteen cards carry a photograph. The initials fallback stays in the CSS,
+so a card whose file is removed degrades to initials rather than breaking.
 
 ## Permission
 
