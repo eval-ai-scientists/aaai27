@@ -738,3 +738,12 @@ footer {
     row-gap: 28px;
   }
 }
+
+/* Entrant notes sit under the two track cards, so the challenge column and
+   the track column finish nearer the same depth. Added 2026-08-27. */
+
+.track-note {
+  margin: 22px 0 14px;
+  color: var(--ink-soft);
+  font-size: 14px;
+}
