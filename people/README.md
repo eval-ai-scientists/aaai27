@@ -37,16 +37,23 @@ than face-recognition is what establishes identity.
 | `haolun-wu.jpg` | His own site, `haolun-wu.github.io` |
 | `hongtu-zhu.jpg` | UNC STOR faculty page |
 | `sheila-mcilraith.jpg` | Vector Institute team page |
+| `jieping-ye.jpg` | Supplied by the web chair, background already removed |
+| `mengdi-wang.jpg` | Princeton Engineering faculty page |
 
 All cropped square with the frame biased upward, 400x400, JPEG quality 82.
 
 ## Still on initials
 
-Jieping Ye, Mengdi Wang, Peiyu Zhang.
+Peiyu Zhang, and only because LinkedIn answers automated requests with a 999.
 
-Princeton returns 403 to automated fetches, so Mengdi Wang's faculty photo is
-out of reach and her lab site carries none. Jieping Ye has no official page
-serving a portrait. Peiyu Zhang has no public headshot to find.
+A LinkedIn profile page sometimes leaks its photo URL in the HTML even behind
+the login wall, which is how Fan Zhou's was obtained, but the response is rate
+limited and often returns 999 instead. A direct media.licdn.com URL, copied
+from the profile photo in a browser, always works.
+
+Two files arrived with their backgrounds already removed, Jieping Ye's and
+Mengdi Wang's, hers inside a cyan Princeton circle. Both are composited onto
+the avatar tint before cropping, so the cut edge blends into the circle.
 
 Fan Zhou's file is the weakest of the set. Both sources carry the same
 full-body photograph at low resolution, LinkedIn's signed URL serving only the
