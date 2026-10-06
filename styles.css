@@ -216,6 +216,27 @@ h3 {
 
 .button:hover { background: #1a315d; }
 
+/* Second hero action, linking the OpenReview portal. An outline on the dark
+   hero keeps the call for papers as the primary action, and the focus ring
+   turns white because the accent ring vanishes against the photograph.
+   Added 2026-10-05. */
+
+.hero-actions {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 12px;
+}
+
+.hero .button-ghost {
+  border-color: rgba(255, 255, 255, .72);
+  background: transparent;
+  color: #fff;
+}
+
+.hero .button-ghost:hover { background: rgba(255, 255, 255, .12); }
+
+.hero .button:focus-visible { outline-color: #fff; }
+
 .event-facts {
   margin: 0;
   border-top: 2px solid #fff;
