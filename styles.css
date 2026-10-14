@@ -495,30 +495,6 @@ h3 {
 .date-list .deadline time,
 .date-list .deadline strong { color: var(--deadline); }
 
-.schedule-table {
-  max-width: 900px;
-  border-top: 2px solid var(--ink);
-}
-
-.schedule-row {
-  display: grid;
-  grid-template-columns: 160px 1fr;
-  gap: 24px;
-  padding: 13px 0;
-  border-bottom: 1px solid var(--line);
-}
-
-.schedule-row time {
-  color: var(--ink-soft);
-  font-size: 13px;
-  font-variant-numeric: tabular-nums;
-}
-
-.schedule-row span {
-  font-size: 14px;
-  font-weight: 600;
-}
-
 .organizer-grid {
   display: grid;
   grid-template-columns: repeat(2, 1fr);
@@ -654,11 +630,6 @@ footer {
   .date-list li {
     grid-template-columns: 1fr;
     gap: 3px;
-  }
-
-  .schedule-row {
-    grid-template-columns: 1fr;
-    gap: 2px;
   }
 
   .contact-layout,
