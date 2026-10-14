@@ -40,13 +40,15 @@ than face-recognition is what establishes identity.
 | `jieping-ye.jpg` | Supplied by the web chair, background already removed |
 | `mengdi-wang.jpg` | Princeton Engineering faculty page |
 | `peiyu-zhang.jpg` | Supplied by the web chair |
+| `xiaowu-dai.jpg` | Own site, `xiaowudai.org`, linked by a co-organizer |
 
 All cropped square with the frame biased upward, 400x400, JPEG quality 82.
 
 ## Complete
 
-All sixteen cards carry a photograph. The initials fallback stays in the CSS,
-so a card whose file is removed degrades to initials rather than breaking.
+Every person card carries a photograph. The seventeen files cover seventeen
+people, and Jieping Ye's serves two cards. The initials fallback stays in the
+CSS, so a card whose file is removed falls back to its initials.
 
 ## Permission
 
