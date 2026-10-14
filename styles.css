@@ -672,6 +672,10 @@ footer {
   font-size: 14px;
 }
 
+/* A group with no intro paragraph, such as the confirmed speakers, keeps the
+   34px the paragraph's margin gives the others. Added 2026-10-14. */
+.people-block > h3 + .people-grid { margin-top: 26px; }
+
 .people-grid {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
