@@ -41,12 +41,13 @@ than face-recognition is what establishes identity.
 | `mengdi-wang.jpg` | Princeton Engineering faculty page |
 | `peiyu-zhang.jpg` | Supplied by the web chair |
 | `xiaowu-dai.jpg` | Own site, `xiaowudai.org`, linked by a co-organizer |
+| `zhijing-jin.jpg` | Own site, `zhijing-jin.com`, cut from a circular PNG inside its feathered edge |
 
 All cropped square with the frame biased upward, 400x400, JPEG quality 82.
 
 ## Complete
 
-Every person card carries a photograph. The seventeen files cover seventeen
+Every person card carries a photograph. The eighteen files cover eighteen
 people, and Jieping Ye's serves two cards. The initials fallback stays in the
 CSS, so a card whose file is removed falls back to its initials.
 
