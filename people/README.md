@@ -43,13 +43,14 @@ than face-recognition is what establishes identity.
 | `xiaowu-dai.jpg` | Own site, `xiaowudai.org`, linked by a co-organizer |
 | `zhijing-jin.jpg` | Own site, `zhijing-jin.com`, cut from a circular PNG inside its feathered edge |
 | `meijia-chen.jpg` | Supplied by the web chair as a 510 px square PNG |
+| `jiajun-wu.jpg` | Supplied by the web chair, cropped square from a 1705 by 1634 original |
 
 All cropped square with the frame biased upward, 400x400, JPEG quality 82.
 
 ## Complete
 
-Every person card carries a photograph. The nineteen files cover nineteen
-people, and Jieping Ye's serves two cards. The initials fallback stays in the
+Every person card carries a photograph. The twenty files cover twenty people,
+and Jieping Ye's serves two cards. The initials fallback stays in the
 CSS, so a card whose file is removed falls back to its initials.
 
 ## Permission
