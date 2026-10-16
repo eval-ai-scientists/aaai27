@@ -40,12 +40,14 @@ than face-recognition is what establishes identity.
 | `zhijing-jin.jpg` | Own site, `zhijing-jin.com`, cut from a circular PNG inside its feathered edge |
 | `meijia-chen.jpg` | Supplied by the web chair as a 510 px square PNG |
 | `jiajun-wu.jpg` | Supplied by the web chair, cropped square from a 1705 by 1634 original |
+| `yifan-hu.jpg` | Own site, `sites.google.com/view/yifan-hu`, URL supplied by the web chair |
+| `phoenix-peng.jpg` | Gestala team page, `gestala.com/team/phoenix-peng`, URL supplied by the web chair, cropped from a 720 by 1080 full-length portrait |
 
 All cropped square with the frame biased upward, 400x400, JPEG quality 82.
 
 ## Complete
 
-Every person card carries a photograph. The sixteen files cover sixteen
+Every person card carries a photograph. The eighteen files cover eighteen
 people, and Hongtu Zhu's serves two cards. The initials fallback stays in the
 CSS, so a card whose file is removed falls back to its initials.
 

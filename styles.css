@@ -271,6 +271,11 @@ h3 {
   font-weight: 400;
 }
 
+/* The official listing links AAAI's page for the workshop. Its focus ring
+   turns white for the same reason as the hero buttons'. Added 2026-10-16. */
+
+.event-facts a:focus-visible { outline-color: #fff; }
+
 .section { padding: 92px 0; }
 
 .section-muted { background: var(--muted); }
@@ -672,8 +677,8 @@ footer {
   font-size: 14px;
 }
 
-/* A group with no intro paragraph, such as the confirmed speakers, keeps the
-   34px the paragraph's margin gives the others. Added 2026-10-14. */
+/* A group with no intro paragraph, such as the speakers, keeps the 34px the
+   paragraph's margin gives the others. Added 2026-10-14. */
 .people-block > h3 + .people-grid { margin-top: 26px; }
 
 .people-grid {
@@ -794,4 +799,6 @@ footer {
 .avatar-zhijing-jin           { background-image: url("./people/zhijing-jin.jpg"); color: transparent; }
 .avatar-meijia-chen           { background-image: url("./people/meijia-chen.jpg"); color: transparent; }
 .avatar-jiajun-wu             { background-image: url("./people/jiajun-wu.jpg"); color: transparent; }
+.avatar-yifan-hu              { background-image: url("./people/yifan-hu.jpg"); color: transparent; }
+.avatar-phoenix-peng          { background-image: url("./people/phoenix-peng.jpg"); color: transparent; }
 
