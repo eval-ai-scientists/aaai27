@@ -24,7 +24,6 @@ than face-recognition is what establishes identity.
 
 | File | Source |
 |---|---|
-| `yoshua-bengio.jpg` | Wikimedia Commons, `File:Yoshua_Bengio_-_2017.jpg`, CC BY-SA |
 | `irina-rish.jpg` | Mila directory, `mila.quebec/en/directory/irina-rish` |
 | `bang-liu.jpg` | Mila directory, `mila.quebec/en/directory/bang-liu` |
 | `samira-ebrahimi-kahou.jpg` | Mila directory, `mila.quebec/en/directory/samira-ebrahimi-kahou` |
@@ -36,8 +35,6 @@ than face-recognition is what establishes identity.
 | `fan-zhou.jpg` | Supplied by the web chair at full resolution |
 | `haolun-wu.jpg` | His own site, `haolun-wu.github.io` |
 | `hongtu-zhu.jpg` | UNC Gillings School of Global Public Health profile |
-| `sheila-mcilraith.jpg` | Vector Institute team page |
-| `mengdi-wang.jpg` | Princeton Engineering faculty page |
 | `peiyu-zhang.jpg` | Supplied by the web chair |
 | `xiaowu-dai.jpg` | Own site, `xiaowudai.org`, linked by a co-organizer |
 | `zhijing-jin.jpg` | Own site, `zhijing-jin.com`, cut from a circular PNG inside its feathered edge |
@@ -48,9 +45,9 @@ All cropped square with the frame biased upward, 400x400, JPEG quality 82.
 
 ## Complete
 
-Every person card carries a photograph. The nineteen files cover nineteen
-people with one card each. The initials fallback stays in the CSS, so a card
-whose file is removed falls back to its initials.
+Every person card carries a photograph. The sixteen files cover sixteen
+people, and Hongtu Zhu's serves two cards. The initials fallback stays in the
+CSS, so a card whose file is removed falls back to its initials.
 
 ## Permission
 
@@ -58,10 +55,6 @@ Do not copy headshots from faculty pages, lab sites, or conference programmes.
 Those belong to the university or the photographer and republishing them here
 is infringement. Ask each person for a photograph they are happy to have on a
 public page, which also gets you consent to appear on the site at all.
-
-Yoshua Bengio and Mengdi Wang have been approached and have not confirmed. No
-photograph of either should go up until they accept, since a picture on the
-programme reads as agreement to speak.
 
 ## Build
 
