@@ -415,6 +415,11 @@ h3 {
   font-size: 14px;
 }
 
+.paper-types-note {
+  margin: 20px 0 0;
+  font-size: 14px;
+}
+
 .submission-details {
   padding: 28px;
   border: 1px solid var(--line);
